@@ -1,0 +1,251 @@
+/* yoyo gaming */
+
+header {
+  padding: 60px 50px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar {
+  border-bottom: 1px solid black;
+}
+
+.gambarSertifikat {
+  float: left;
+  width: 50%;
+}
+
+.containerSertifikat {
+  float: right;
+  width: 45%;
+}
+
+.judulSertifikat {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.isiSertifikat {
+  font-size: 24px;
+}
+
+.clear {
+  clear: both;
+}
+
+.containerFooter {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+  background-color: #ffb540;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.imgTentangKami {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0px 50px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #2235b7;
+  color: white;
+  text-transform: uppercase;
+  width: 142px;
+}
+
+body .loginSectionCS {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+body .login-wrapperCS {
+  border: 1px solid black !important;
+  border-radius: 10px;
+  padding: 35px 0px;
+}
+
+body .login-wrapperCS .loginContentCS {
+  width: 95%;
+  margin: 0px auto;
+  font-family: "Nunito", sans-serif;
+}
+
+body .login-wrapperCS .inputLoginCS {
+  border: 1px solid black;
+}
+
+.verifikasiAkun{
+  background-color: #2235b7;
+  color: white;
+  text-transform: uppercase;
+  width: 100px;
+  text-align: center;
+}
+
+.ulKiri,
+.ulKanan {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.navFlex {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#buttonbiru{
+  background-color: #2235B7  !important;
+}
+/* end yoyo gaming */
+
+
+/* Nico Abel Laia */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap");
+
+body .loginSection {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+body .login-wrapper {
+  border: 1px solid black !important;
+  border-radius: 10px;
+  padding: 55px 0px;
+}
+body .login-wrapper .loginContent {
+  width: 75%;
+  margin: 0px auto;
+  font-family: "Nunito", sans-serif;
+}
+body .login-wrapper .loginContent h1 {
+  color: #2235B7;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+body .login-wrapper .btn-login {
+  background-color: #2235B7;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+body .login-wrapper .inputLogin {
+  border: 1px solid black;
+  padding: 13px 8px !important;
+}
+body .mainNico {
+  padding: 0px 50px;
+}
+body .headRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  font-family: "Nunito", sans-serif;
+}
+body .headRow .headMainTitle {
+  font-weight: 700;
+}
+body .headRow .addButton {
+  display: flex;
+  align-items: center;
+  background-color: #2235B7;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+body .headRow .addButton .textButton {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+body .headRow .addButton .addIcon {
+  display: block !important;
+  width: 30px;
+  height: 30px;
+}
+body .cardWrapper {
+  border: 1px solid #808080;
+  border-radius: 10px;
+}
+body .cardWrapper .imgCard {
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .cardWrapper .cardMainBody {
+  padding: 20px;
+}
+body .cardWrapper .cardMainBody .cardBorder {
+  border: 1px solid #808080;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardTitle, body .cardWrapper .cardMainBody .cardBorder .cardDesc {
+  padding: 10px;
+  margin: 0 !important;
+  font-family: "Nunito", sans-serif;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardTitle {
+  font-weight: 700;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardDesc {
+  border-top: 1px solid #808080;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardBlock {
+  width: 100%;
+  padding: 20px 10px 10px 10px;
+  margin: 0;
+  border-top: 1px solid #808080;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardTag {
+  display: block;
+  padding: 7px 15px;
+  background-color: #2235B7;
+  color: white;
+  margin-bottom: 10px;
+  font-family: "Nunito", sans-serif;
+  border-radius: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none !important;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardTag a {
+  color: white;
+}
+body .cardWrapper .cardMainBody .cardBorder .cardList:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+body .greySelect {
+  color: #808080;
+}
+
+/* Nico Abel Laia */
+
+
